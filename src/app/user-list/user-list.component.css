@@ -1,0 +1,38 @@
+.user-list {
+    margin-top: 10px;
+  }
+/* styles.css */
+
+/* Apply some basic styling to the user list */
+ul {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  max-width: 400px; /* Set a max-width for better readability */
+  margin: 0 auto; /* Center the list horizontally */
+  border: 1px solid #ddd; /* Add a subtle border around the list */
+  border-radius: 8px; /* Round the corners of the border */
+  background-color: #f9f9f9; /* Set a light background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+}
+
+/* Style each list item */
+li {
+  padding: 10px 15px; /* Add some padding inside each item */
+  border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+  font-size: 16px; /* Adjust font size */
+  color: #333; /* Set a dark text color */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Remove the bottom border of the last item */
+li:last-child {
+  border-bottom: none;
+}
+
+/* Add hover effects to list items */
+li:hover {
+  background-color: #e0e0e0; /* Change background on hover */
+  color: #000; /* Darken text color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}

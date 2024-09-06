@@ -1,0 +1,65 @@
+<!--<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My App</a>
+  </nav>
+  <div class="row">
+    <div class="col-md-3">
+      <app-greet-button></app-greet-button>
+    </div>
+    <div class="col-md-6">
+      <app-user-list [users]="users"></app-user-list>
+    </div>
+    <div class="col-md-3">
+      <! Additional content or empty column --
+    </div>
+  </div>
+</div>
+-->
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ 
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My App</a>
+    <div class="collapse navbar-collapse">
+      <form class="form-inline ml-auto">
+        <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- Row 1 -->
+  <div class="row">
+    <div class="col-md-3">
+      <app-greet-button></app-greet-button>
+    </div>
+    <div class="col-md-6">
+      <app-user-list></app-user-list>
+    </div>
+    <div class="col-md-3">
+      <!-- Additional content or empty column -->
+    </div>
+  </div>
+
+  <!-- Row 2 -->
+  <div class="row">
+    <div class="col-md-3">
+      <div class="dummy-content">User Profile</div>
+    </div>
+    <div class="col-md-3">
+      <div class="dummy-content">Notifications</div>
+    </div>
+    <div class="col-md-3">
+      <div class="dummy-content">Announcements</div>
+    </div>
+    <div class="col-md-3">
+      <div class="dummy-content">Events</div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+

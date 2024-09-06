@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+/* Custom styles to divide the screen into three columns */
+.container {
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .col-md-3, .col-md-6 {
+    padding: 15px;
+  }
+  
+  .user-list {
+    margin-top: 20px;
+  }
+  
+  /* Optional: Additional styles for your navigation bar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+/* Optional: Styles for your columns */
+.col-md-3 {
+  padding: 20px;
+  /* Adjust padding as needed */
+}
+
+.bg-light {
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.border {
+  border: 1px solid #dee2e6; /* Light border color */
+  border-radius: .25rem; /* Optional: rounded corners */
+}
+.dummy-content {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+  margin-bottom: 20px;
+}
