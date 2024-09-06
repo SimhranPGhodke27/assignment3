@@ -1,0 +1,36 @@
+2024/09/05 19:49:44 [error] 32776#1884: *1 CreateFile() "C:\nginx-1.27.1\nginx-1.27.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/09/05 19:51:07 [notice] 22672#33664: signal process started
+2024/09/05 19:52:22 [notice] 30416#14640: signal process started
+2024/09/05 19:52:22 [error] 30416#14640: CreateFile() "C:\nginx-1.27.1\nginx-1.27.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2024/09/05 20:08:19 [emerg] 17800#18860: unexpected "'" in C:\nginx-1.27.1\nginx-1.27.1/conf/nginx.conf:31
+2024/09/05 20:09:19 [emerg] 25628#32884: unexpected "'" in C:\nginx-1.27.1\nginx-1.27.1/conf/nginx.conf:41
+2024/09/05 20:12:07 [notice] 22672#32148: signal process started
+2024/09/05 20:25:56 [emerg] 33580#33356: "location" directive is not allowed here in C:\nginx-1.27.1\nginx-1.27.1/conf/nginx.conf:23
+2024/09/05 20:29:14 [notice] 32052#29280: signal process started
+2024/09/05 20:34:50 [notice] 7400#3452: signal process started
+2024/09/05 20:45:11 [notice] 32832#31632: signal process started
+2024/09/05 21:02:11 [notice] 25824#11588: signal process started
+2024/09/05 21:04:25 [notice] 10588#3344: signal process started
+2024/09/05 21:08:34 [notice] 19452#33360: signal process started
+2024/09/05 21:12:07 [notice] 24700#32740: signal process started
+2024/09/05 21:12:07 [error] 24700#32740: CreateFile() "C:\nginx-1.27.1\nginx-1.27.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2024/09/05 21:15:41 [notice] 27348#384: signal process started
+2024/09/05 21:16:10 [emerg] 30892#8824: duplicate location "/" in C:\nginx-1.27.1\nginx-1.27.1/conf/nginx.conf:23
+2024/09/05 21:17:49 [notice] 3212#20592: signal process started
+2024/09/05 21:18:50 [notice] 32956#16984: signal process started
+2024/09/05 21:22:42 [notice] 26656#30060: signal process started
+2024/09/05 21:31:13 [error] 31880#30144: *1 directory index of "C:\nginx-1.27.1\nginx-1.27.1/html/greet-users-app/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2024/09/05 21:31:27 [notice] 28896#28372: signal process started
+2024/09/05 21:32:21 [error] 3980#1476: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "http://[::1]:8080/users", host: "localhost:4200", referrer: "http://localhost:4200/"
+2024/09/05 21:32:23 [error] 3980#1476: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "http://127.0.0.1:8080/users", host: "localhost:4200", referrer: "http://localhost:4200/"
+2024/09/05 21:32:40 [notice] 11940#19724: signal process started
+2024/09/05 21:37:18 [notice] 33036#27600: signal process started
+2024/09/05 21:38:05 [notice] 12244#19888: signal process started
+2024/09/05 21:59:35 [notice] 27396#33664: signal process started
+2024/09/06 16:56:40 [error] 10444#27640: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "http://[::1]:9090/users", host: "localhost:4200", referrer: "http://localhost:4200/"
+2024/09/06 16:58:29 [notice] 24648#24360: signal process started
+2024/09/06 16:59:31 [notice] 2148#25236: signal process started
+2024/09/06 17:17:26 [notice] 29708#5532: signal process started
+2024/09/06 17:18:03 [notice] 27084#27148: signal process started
+2024/09/06 17:21:50 [notice] 14020#18024: signal process started
+2024/09/06 18:13:30 [notice] 12536#4264: signal process started
